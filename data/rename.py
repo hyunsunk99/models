@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
         counter = 0
         for filename in os.listdir('./{folder}/with_mask'.format(folder=folder)):
-            new_file_name = '{folder}_w_{count}'.format(folder=folder, count=counter)
+            new_file_name = '{folder}_w_{count}.jpg'.format(folder=folder, count=counter)
             orig_file = os.path.join(THIS_FOLDER, '{folder}/with_mask/{filename}'.format(folder=folder, filename=filename))
             new_file = os.path.join(THIS_FOLDER, '{folder}/with_mask/{new_file_name}'.format(folder=folder, new_file_name=new_file_name))
             os.rename(orig_file, new_file)
@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
         counter = 0
         for filename in os.listdir('./{folder}/without_mask'.format(folder=folder)):
-            new_file_name = '{folder}_wo_{count}'.format(folder=folder, count=counter)
+            new_file_name = '{folder}_wo_{count}.jpg'.format(folder=folder, count=counter)
             orig_file = os.path.join(THIS_FOLDER, '{folder}/without_mask/{filename}'.format(folder=folder, filename=filename))
             new_file = os.path.join(THIS_FOLDER, '{folder}/without_mask/{new_file_name}'.format(folder=folder, new_file_name=new_file_name))
             os.rename(orig_file, new_file)
