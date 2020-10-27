@@ -1,0 +1,26 @@
+<annotation>
+	<folder>without_mask</folder>
+	<filename>test_wo_92.jpg</filename>
+	<path>/Users/zoekahana/Documents/__Fall2020/cos429/Final/models/data/test/without_mask/test_wo_92.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>201</ymin>
+			<xmax>633</xmax>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+</annotation>
