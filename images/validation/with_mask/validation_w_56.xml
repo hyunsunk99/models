@@ -1,0 +1,26 @@
+<annotation>
+	<folder>with_mask</folder>
+	<filename>validation_w_56.jpg</filename>
+	<path>/Users/heidikim/Documents/sen_cos429/cos429_final/models/data/validation/with_mask/validation_w_56.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>269</xmin>
+			<ymin>136</ymin>
+			<xmax>592</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>

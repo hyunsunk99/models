@@ -1,0 +1,26 @@
+<annotation>
+	<folder>without_mask</folder>
+	<filename>train_wo_537.jpg</filename>
+	<path>/Users/zoekahana/Documents/__Fall2020/cos429/Final/models/data/train/without_mask/train_wo_537.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>38</ymin>
+			<xmax>768</xmax>
+			<ymax>587</ymax>
+		</bndbox>
+	</object>
+</annotation>
